@@ -26,6 +26,7 @@ public class HelloWorldSwing {
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 createAndShowGUI();
+                System.out.println("a change");
             }
         });
     }
